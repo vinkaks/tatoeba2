@@ -1992,3 +1992,32 @@ md-autocomplete-wrap:not(.md-menu-showing) input.ng-invalid {
 .md-toolbar-tools.layout-wrap .md-icon-button {
     margin: 6px 0px;
 }
+
+/*
+ * --------------------------------------------------------------------
+ *
+ *   Wrapping toolbars
+ *
+ * --------------------------------------------------------------------
+ */
+
+ select {
+    position: relative;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 16px;
+    margin: 0 0 8px 0;
+    display: block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index: 1;
+    padding: 0 5px;
+
+}
