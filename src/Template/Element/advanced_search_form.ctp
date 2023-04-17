@@ -111,7 +111,7 @@ echo $this->Form->create('AdvancedSearch', [
             </md-input-container>
 
             <div class="param">
-                <div layout="row" layout-align="center">
+                <div layout="row" layout-align="center center">
                     <label for="orphans" flex><?= __('Is orphan:') ?></label>
                     <?php
                     echo $this->Form->input('orphans', [
@@ -135,7 +135,7 @@ echo $this->Form->create('AdvancedSearch', [
             </div>
 
             <div class="param">
-                <div layout="row" layout-align="center">
+                <div layout="row" layout-align="center center">
                     <label for="unapproved" flex><?= __('Is unapproved:') ?></label>
                     <?php
                     echo $this->Form->input('unapproved', array(
@@ -156,7 +156,7 @@ echo $this->Form->create('AdvancedSearch', [
                 </div>
             </div>
 
-            <div class="param" layout="row" layout-align="center">
+            <div class="param" layout="row" layout-align="center center">
                 <label for="has-audio" flex><?= __('Has audio:') ?></label>
                 <?php
                 echo $this->Form->input('has_audio', array(
@@ -262,7 +262,7 @@ echo $this->Form->create('AdvancedSearch', [
                     ?>
                 </div>
 
-                <div class="param" layout="row" layout-align="center">
+                <div class="param" layout="row" layout-align="center center">
                     <label for="trans-link" flex><?= __('Link:') ?></label>
                     <?php
                     echo $this->Form->input('trans_link', array(
@@ -297,7 +297,7 @@ echo $this->Form->create('AdvancedSearch', [
                 </md-input-container>
 
                 <div class="param">
-                    <div layout="row" layout-align="center">
+                    <div layout="row" layout-align="center center">
                         <label for="trans-orphan" flex><?= __('Is orphan:') ?></label>
                         <?php
                         echo $this->Form->input('trans_orphan', array(
@@ -318,7 +318,7 @@ echo $this->Form->create('AdvancedSearch', [
                 </div>
 
                 <div class="param">
-                    <div layout="row" layout-align="center">
+                    <div layout="row" layout-align="center center">
                         <label for="trans-unapproved" flex><?= __('Is unapproved:') ?></label>
                         <?php
                         echo $this->Form->input('trans_unapproved', array(
@@ -338,7 +338,7 @@ echo $this->Form->create('AdvancedSearch', [
                     </div>
                 </div>
 
-                <div class="param" layout="row" layout-align="center">
+                <div class="param" layout="row" layout-align="center center">
                     <label for="trans-has-audio" flex><?= __('Has audio:') ?></label>
                     <?php
                     echo $this->Form->input('trans_has_audio', array(
