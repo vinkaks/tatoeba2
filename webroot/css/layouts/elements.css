@@ -1706,7 +1706,7 @@ html[dir="rtl"] .sentence-and-translations .translation.trusted-user.expanded .t
  */
 
 .language-dropdown-container {
-    width: 200px;
+    width: 100%;
     display: inline-block;
     vertical-align: bottom;
 }
